@@ -1,0 +1,32 @@
+{
+  "name": "kuha-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kuha paid-ads landing page with Lemon Squeezy checkout",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "next": "15.5.27",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.6",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  },
+  "overrides": {
+    "postcss": "8.5.29"
+  }
+}
